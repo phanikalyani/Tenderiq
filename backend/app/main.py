@@ -18,7 +18,14 @@ from app.routes.evaluate import router as evaluate_router
 app.include_router(auth_router, prefix="/auth")
 app.include_router(tender_router, prefix="/tenders")
 app.include_router(evaluate_router, prefix="/evaluate")
-
+# ✅ CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def root():
