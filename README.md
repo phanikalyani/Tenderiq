@@ -1,4 +1,4 @@
-# Tenderiq# TenderIQ
+#TenderIQ
 
 TenderIQ is an AI-powered tender evaluation platform that helps procurement teams analyze tender documents, evaluate bidder submissions, and generate explainable decisions.
 
