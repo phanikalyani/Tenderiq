@@ -8,3 +8,4 @@ passlib[bcrypt]
 python-jose
 pdfplumber
 scikit-learn
+google-generativeai
